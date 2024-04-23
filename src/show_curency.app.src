@@ -1,0 +1,20 @@
+{application, show_curency,
+  [
+    {description, "An Erlang show_curency library"},
+    {vsn, "1"},
+    {modules, [
+      show_curency
+    ]},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      ssl,
+      inets,
+      crypto,
+      cowboy,
+      jiffy
+    ]},
+    {mod, {show_curency_app, []}},
+    {env, []}
+  ]}.
